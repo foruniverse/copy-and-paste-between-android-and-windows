@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+android:orientation="horizontal" android:layout_width="match_parent"
+android:layout_height="match_parent"
+ android:layout_gravity="center">
+    <LinearLayout
+        android:layout_gravity="center_vertical"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+<LinearLayout
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="   IP 地址:  "
+        android:textSize="20sp"
+        android:layout_gravity="center"
+        />
+
+    <EditText
+    android:id="@+id/default_ip"
+    android:layout_width="match_parent"
+        android:layout_height="36dip"
+        android:gravity="center"
+        android:hint="格式: XXX.XXX.XXX.XXX"
+        android:textColorHint="#AAAAAA"
+        android:background="@drawable/editext"
+
+        />
+</LinearLayout>
+    <LinearLayout
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="   端口号:   "
+        android:layout_gravity="center"
+        android:textSize="20sp"/>
+    <EditText
+    android:id="@+id/default_port"
+    android:layout_width="fill_parent"
+        android:layout_height="36dip"
+
+        android:inputType="numberDecimal"
+        android:gravity="center"
+        android:hint="建议选择范围:5001~65535"
+        android:textColorHint="#AAAAAA"
+        android:background="@drawable/editext"
+    />
+</LinearLayout>
+    <Button
+        android:id="@+id/commit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="保存"
+        android:textSize="18sp"
+        android:layout_gravity="center"
+
+        />
+        </LinearLayout>
+</LinearLayout>
+

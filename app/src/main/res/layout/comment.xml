@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+   <EditText
+
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:text="使用步骤:
+       1 通过ipconfig查看桌面ip地址,
+
+       2.使用端口:8989,
+       3.填入对应的ip地址和端口号
+       4. 打开cmd 或其他终端, 使用命令: g++ -o windows socket.cpp -l wsock32 编译文件
+       5. 运行编译好的文件
+       6. 点击链接桌面"
+       android:textSize="18sp"/>
+
+
+
+
+</LinearLayout>
